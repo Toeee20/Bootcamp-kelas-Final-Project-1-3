@@ -1,56 +1,144 @@
-# Bootcamp-kelas-Final-Project-1-3
-📊 Data Science Capstone Project
+# 📊 Data Science Capstone Project  
+### Statistical Analysis • Exploratory Data Analysis • Machine Learning
 
-This repository contains three end-to-end case studies:
+Author: **Alvito Haryanto**
 
-1️⃣ Sales Force Training Analysis
+---
 
-Statistical Testing (One Sample T-Test)
+## 🚀 Project Overview
 
-Mean, Median, Variance Analysis
+This repository contains three end-to-end case studies covering:
 
-Business Recommendation
+- 📈 Statistical hypothesis testing  
+- 📊 Exploratory data analysis (EDA)  
+- 🤖 Machine learning modeling & evaluation  
 
-2️⃣ Housing Price Analysis
+The objective of this capstone project is to demonstrate practical data science skills — from raw data to business insight and predictive modeling.
 
-Exploratory Data Analysis (EDA)
+---
 
-Distribution Visualization
+# 📁 Case Study 01 — Sales Force Training Impact Analysis
 
-Log Transformation
+## 🎯 Objective  
+Evaluate whether a sales force training program significantly increased the average transaction amount.
 
-Feature Relationship Analysis
+## 📌 Methodology
+- Descriptive Statistics (Mean, Median, Mode)
+- Variance & Standard Deviation
+- One Sample T-Test
+- Significance Level (α = 0.05)
 
-3️⃣ Customer Churn Prediction
+## 📊 Key Result
+- Mean after training: **102.6**
+- Hypothesis test p-value: **0.343**
+- Decision: **Fail to reject H0**
 
-Data Cleaning & Preprocessing
+## 💡 Business Insight
+Although the average transaction increased slightly, the improvement is not statistically significant.  
 
-Feature Encoding
+Recommendation:
+- Re-evaluate training effectiveness  
+- Increase sample size  
+- Monitor impact over longer periods  
 
-Logistic Regression
+---
 
-Model Evaluation (Accuracy, ROC-AUC, Confusion Matrix)
+# 🏠 Case Study 02 — Housing Price Analysis
 
-🛠 Tech Stack
+## 🎯 Objective  
+Explore key factors influencing house sale prices.
 
-Python
+## 📌 Features Used
+- Utilities  
+- HouseStyle  
+- ExterQual  
+- GrLivArea  
+- GarageArea  
+- PoolArea  
+- SalePrice  
 
-Pandas
+## 📊 Analysis Performed
+- Data cleaning & filtering  
+- Distribution analysis  
+- Log transformation  
+- Feature relationship visualization  
+- Scatter plot analysis  
 
-NumPy
+## 🔍 Key Findings
+- Strong positive correlation between **GrLivArea** and **SalePrice**
+- Exterior quality significantly impacts price
+- Pool area shows minimal influence due to low variance
 
-Matplotlib
+---
 
-Seaborn
+# 📉 Case Study 03 — Customer Churn Prediction
 
-Scikit-Learn
+## 🎯 Objective  
+Predict customer churn using classification modeling.
 
-📈 Key Insights
+## 📌 Dataset
+Telco Customer Churn Dataset (7,000+ records)
 
-Sales training showed no statistically significant improvement.
+## ⚙️ Preprocessing
+- Missing value handling
+- Encoding categorical variables
+- Feature scaling
+- Stratified train-test split (80/20)
 
-Housing price strongly correlates with living area.
+## 🤖 Model Used
+- Logistic Regression
 
-Logistic Regression achieved strong predictive performance in churn prediction.
+## 📊 Model Evaluation
+- Accuracy
+- Classification Report
+- Confusion Matrix
+- ROC-AUC Score
 
-Author: Alvito Haryanto
+## 💡 Business Insight
+The model can help companies:
+- Identify high-risk churn customers
+- Optimize retention strategy
+- Improve customer lifetime value
+
+---
+
+# 🛠 Tech Stack
+
+- Python  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Seaborn  
+- Scikit-Learn  
+- SciPy  
+
+---
+
+# 📈 Skills Demonstrated
+
+✔ Statistical Hypothesis Testing  
+✔ Exploratory Data Analysis  
+✔ Feature Engineering  
+✔ Data Cleaning & Transformation  
+✔ Machine Learning Modeling  
+✔ Model Evaluation & Interpretation  
+✔ Business Insight Translation  
+
+---
+
+# 🧠 Key Takeaways
+
+This project demonstrates the ability to:
+
+- Translate business problems into analytical frameworks  
+- Apply statistical testing for decision making  
+- Perform structured EDA for insight extraction  
+- Build and evaluate predictive machine learning models  
+- Communicate findings in a business-oriented manner  
+
+---
+
+# 📬 Contact
+
+**Alvito Haryanto**  
+Aspiring Data Scientist | Business-Oriented Analyst
